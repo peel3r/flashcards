@@ -1,0 +1,159 @@
+//cursor: pointer for clickable divs
+//animation lock for jquery effects
+//delegate to on page:change for window sizing
+
+input:-webkit-autofill { -webkit-box-shadow:0 0 0 500px white inset; }
+
+body {
+  background: #454545;
+  margin: 0px;
+  font-family: "Open Sans", Helvetica, sans-serif;
+  font-weight: 300;
+}
+
+
+.header-link {
+  text-decoration: none;
+  text-align: center;
+  color: #fff;
+}
+
+.left-link {
+  float: left;
+  margin: 11px;
+  padding: 5px 8px;
+  border: 1px solid #aaa;
+  &:hover {
+    background: #666;
+  }
+}
+
+.middle-link {
+  margin: 0 auto;
+  padding: 10px;
+  width: 100px;
+}
+
+.right-link {
+  float: right;
+  margin: 11px;
+  padding: 5px 8px;
+  border: 1px solid #aaa;
+  &:hover {
+    background: #666;
+  }
+}
+
+.header {
+  overflow: auto;
+  background: #2f2f2f;
+}
+
+
+h1.title {
+  font-family: "Raleway", Arial, sans-serif;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+h1.home_title {
+  font-weight: 100;
+  font-size: 45px;
+}
+
+.center {
+  text-align: center;
+}
+
+.white-text {
+  color: #fff;
+}
+
+
+.vertical-align {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.hidden {
+  display: none;
+}
+
+.plain-link {
+  text-decoration: none;
+  color: #000;
+}
+
+.plain-link-white {
+  text-decoration: none;
+  color: #fff;
+}
+
+.light-link {
+  color: rgb(101, 167, 255);
+}
+
+.noselect {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.whitespace {
+  white-space: pre-wrap;
+  text-align: left;
+}
+
+
+.hide_overflow {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+
+  max-height: 55px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.background {
+  padding: 20px 80px;
+}
+
+//Custom flash notices
+.flash {
+  text-align: center;
+  padding: 12px 20px 12px 20px;
+  margin-left: 140px;
+  margin-right: 140px;
+  min-width: 200px;
+  border-radius: 5px;
+
+  &.alert-notice {
+    border: thin solid rgb(0, 171, 63);
+    background: rgb(182, 215, 192);
+  }
+
+  &.alert-alert {
+    border: thin solid rgb(142, 0, 0);
+    background: rgb(218, 191, 191);
+  }
+}
+
+
+input, textarea {
+  font-size: 16px;
+  border: 1px solid #bbb;
+  padding: 6px;
+  border-radius: 4px;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+
+input {
+  height: auto !important;
+}

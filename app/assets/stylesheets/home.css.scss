@@ -1,0 +1,106 @@
+// Place all the styles related to the Home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.thin-text {
+  font-family: "Open Sans", Helvetica, sans-serif;
+  font-weight: 300;
+}
+
+.large-text {
+  font-size: 3em;
+  font-family: "Raleway", Helvetica, sans-serif;
+}
+
+.medium-large-text {
+  font-size: 1.5em;
+  font-family: "Raleway", Helvetica, sans-serif;
+}
+
+.signin-container {
+  margin: 0 auto;
+  margin-top: 60px;
+  width: 340px;
+}
+
+.signin-button {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 20px;
+  margin-bottom: 25px;
+  text-align: center;
+  border: 1px solid #A1D9FF;
+  cursor: pointer;
+  &:hover {
+    background: rgb(89, 89, 89);
+  }
+}
+
+.signin-text {
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  font: "Open Sans", Helvetica, sans-serif;
+  font-size: 1.8em;
+}
+
+
+.browse-cards-container {
+  margin: 0 auto;
+  margin-top: 40px;
+  width: 500px;
+}
+
+.browse-cards-button {
+  box-sizing: border-box;
+  font-size: 1.8em;
+  width: 100%;
+  padding: 20px;
+  margin-bottom: 30px;
+  text-align: center;
+  border: 1px solid #AD87FF;
+  cursor: pointer;
+  &:hover {
+    background: rgb(89, 89, 89);
+  }
+}
+
+.redirect_container {
+  margin: 0 auto;
+  margin-top: 80px;
+  width: 600px;
+}
+
+.redirect_button {
+  box-sizing: border-box;
+  font-size: 1.2em;
+  width: 100%;
+  padding: 50px 25px;
+  margin-bottom: 30px;
+  text-align: center;
+  border: 3px solid transparent;
+  border-image: linear-gradient(to bottom right, #87f6f6 0%, #4c3bd7 100%);
+  border-image-slice: 1;
+  &:hover {
+    background: rgb(89, 89, 89);
+  }
+}
+
+.hvr-grow {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+.hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
+  -webkit-transform: scale(1.06);
+  transform: scale(1.06);
+}
